@@ -185,7 +185,7 @@ button, input {
     border-radius: 60%;
     overflow: hidden;
     margin-bottom: 3rem;
-    margin-top: 150px;
+    margin-top: 200px;
     width: 250px;
     height: 250px;
 }
@@ -321,6 +321,7 @@ button, input {
     font-size: 1.3rem;
     line-height: 2.6rem;
     font-weight: 300;
+    margin-left: 5px;
 }
 
 .about-content {
@@ -363,9 +364,7 @@ label {
     width:350px;
 }
 
-.contact-content{
-    margin-left: 5px;
-}
+
 .contact-form {
     max-width: 300px;
     margin: auto;
@@ -483,6 +482,18 @@ form .btn {
     .abt-span {
         font-size: 1.5rem;
     }
+    
+    .about-details{
+        margin-left:2px;
+    }
+    
+    .contact-form textarea{
+        width: 250;
+    }
+    
+    .contact-content{
+       margin-left: 5px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -545,11 +556,14 @@ form .btn {
     }
     
     .about-details{
-        margin-left:5px;
+        margin-left:2px;
     }
     
     .contact-form textarea{
         width: 250;
     }
     
+    .contact-content{
+       margin-left: 5px;
+    }
 }
