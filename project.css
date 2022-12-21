@@ -49,7 +49,10 @@ button, input {
     background: transparent;
     position: relative;
     cursor: pointer;
-    margin: 10px 10px 10px 10px;
+    margin-top:10px;
+    margin-right:5px;
+    margin-bottom:10px;
+    margin-left:10px;
 }
 
 .btn:hover {
@@ -87,7 +90,6 @@ button, input {
     top: 0;
     display: inline-block;
     width: 100%;
-    height: 100px;
     text-align: center;
     z-index: 400;
     right: 0;
@@ -155,7 +157,7 @@ button, input {
 /* Home Page */
 
 .home {
-    min-height: 850px;
+    min-height: 950px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,7 +294,7 @@ button, input {
     background-color: #358597;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 
 .abt-span {
@@ -308,7 +310,7 @@ button, input {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
-    margin-left: 5px;
+    margin-left: 2px;
 }
 
 .about-details pre, span {
@@ -358,7 +360,7 @@ label {
     color: #000;
     background: #FFF;
     border-radius: 0.4rem;
-    width:300px;
+    width:350px;
 }
 
 .contact-form {
@@ -472,7 +474,7 @@ form .btn {
     }
 
     .heading {
-        font-size: 35px;
+        font-size: 40px;
     }
     
     .abt-span {
@@ -532,7 +534,7 @@ form .btn {
     }
 
     .heading {
-        font-size: 35px;
+        font-size: 40px;
     }
     
     .about-details pre {
@@ -541,6 +543,10 @@ form .btn {
     
     .about-details{
         margin-left:5px;
+    }
+    
+    .contact-form textarea{
+        width: 250;
     }
     
 }
