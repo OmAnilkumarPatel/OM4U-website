@@ -354,11 +354,11 @@ label {
     color: #000;
     background: #FFF;
     border-radius: 0.4rem;
-    width:400px;
+    width:300px;
 }
 
 .contact-form {
-    max-width: 400px;
+    max-width: 300px;
     margin: auto;
     width: 100%;
     display: grid;
@@ -528,6 +528,10 @@ form .btn {
     }
 
     .heading {
-        font-size: 4rem;
+        font-size: 45px;
+    }
+    
+    .about-details pre {
+        font-size: 10px;
     }
 }
