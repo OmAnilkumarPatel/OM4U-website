@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 850px;
+    min-height: 950px;
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(177, 64, 243, 0.3)),url(project-image/home.webp);
     width: 100%;
     height: 100%;
@@ -151,7 +151,7 @@ p{
     justify-content: center;
     align-items:center;    
     padding-top: 20px;
-    padding-bottom: 27px;
+    padding-bottom: 22px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 20px;
@@ -391,19 +391,19 @@ p{
 }
 
 /*..................................Making Responsive Website..................................*/
-@media (max-width: 450px){
+@media screen and (max-width: 350px){
    
 
-    .home-text h2 {
+    .home-txt h2 {
         font-size: 36.8px;
         line-height: 51.2px;
     }
 
-    .home-text h1 {
+    .home-txt h1 {
         font-size: 56px;
     }
 
-    .home-text p {
+    .home-txt p {
         font-size: 10px;
     }
 
@@ -432,7 +432,7 @@ p{
     }
 
     .GB-title{
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
         margin-bottom: 0;
     }
@@ -466,7 +466,7 @@ p{
     }
 }
 
-@media (max-width:850px){
+@media screen and (max-width:750px){
    
    
     .home-text h2 {
@@ -482,6 +482,49 @@ p{
         font-size: 12px;
     }
 
+    .GB-preview{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+    }
+
+    .GB-title{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .GB-school{
+        width: 350px;
+        height: 135px;
+        display: inline-block;
+        margin-left: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: -20px;
+        font-size: 15px;
+    }
+    .GB-1{
+        margin-bottom: 20px;
+    }
+    .GB-college{
+        width: 350px;
+        height: 135px;
+        display: inline-block;
+        margin-left: 40px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .contact-details{
+        display:grid;
+        grid-template-columns: 1fr;
+        margin-left: 5px;
+    }
+    .field-style{
+        width:410px
+    }
+
     .aboutme-stats {
         grid-template-columns: 1fr;
         font-size: 24px;
@@ -489,7 +532,45 @@ p{
 
     .aboutme-title{
         font-size: 64px;
+        text-align: center;
     }    
+
+    .about-details{
+        font-size:15px;
+        margin-left:5px
+    }
+
+    .contact-title{
+        font-size: 64px;
+    }
+
+    .contact-details{
+        text-align: center;
+    }
+
+    .boxstyle{
+        width: 300px;
+        border: 2px;
+        box-shadow: 1px 1px 15px 2px gray;
+        border-radius: 5px;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: arial;
+        margin-left: 75px;
+    }
+    .field-style{
+        font-family: arial;
+        width: 310px;
+        font-size: 15px;
+        box-shadow: 1px 1px 15px 2px gray;
+        border: none;
+        outline: none;
+        margin-left: 75px;
+    }
 
     
 }
