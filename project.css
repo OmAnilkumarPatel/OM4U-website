@@ -49,7 +49,7 @@ button, input {
     background: transparent;
     position: relative;
     cursor: pointer;
-    margin: 10px 10px 20px 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 .btn:hover {
@@ -154,7 +154,7 @@ button, input {
 /* Home Page */
 
 .home {
-    min-height: 750px;
+    min-height: 850px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -289,7 +289,9 @@ button, input {
 
 .about {
     background-color: #358597;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
 }
 
 .abt-span {
@@ -534,4 +536,8 @@ form .btn {
     .about-details pre {
         font-size: 10px;
     }
+    
+    .contact-form textarea {
+        width:250px;
+    } 
 }
