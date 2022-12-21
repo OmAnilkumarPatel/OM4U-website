@@ -393,7 +393,9 @@ p{
 /*..................................Making Responsive Website..................................*/
 @media screen and (max-width: 350px){
    
-
+    .header{
+        width:300px
+    }
     .home-txt h2 {
         font-size: 36.8px;
         line-height: 51.2px;
@@ -433,16 +435,16 @@ p{
     }
 
     .GB-title{
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
         margin-bottom: 0;
     }
 
     .GB-school{
-        width: 350px;
+        width: 250px;
         height: 135px;
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 10px;
         text-align: center;
         margin-bottom: 10px;
         margin-top: -20px;
@@ -452,10 +454,10 @@ p{
         margin-bottom: 20px;
     }
     .GB-college{
-        width: 350px;
+        width: 250px;
         height: 135px;
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 10px;
         text-align: center;
         font-size: 15px;
     }
@@ -467,16 +469,17 @@ p{
     }
 
     .about-details{
-        font-size:15px;
+        font-size:10px;
         margin-left:5px
     }
 
     .contact-title{
-        font-size: 64px;
+        font-size: 55px;
+        text-align:center;
     }
 
     .contact-details{
-        text-align: center;
+        margin-left:10px;
     }
 
     .boxstyle{
@@ -491,7 +494,7 @@ p{
         font-size: 15px;
         font-weight: bold;
         font-family: arial;
-        margin-left: 75px;
+        margin-left: 10px;
     }
     .field-style{
         font-family: arial;
@@ -500,7 +503,7 @@ p{
         box-shadow: 1px 1px 15px 2px gray;
         border: none;
         outline: none;
-        margin-left: 75px;
+        margin-left: 10px;
     }
 
     
