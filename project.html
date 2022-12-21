@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om Patel</title>
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="stylesheet" href="project.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">   
+</head>
+
+<body>
+    <div class="website">
+        
+        <header class="navbar">
+            <nav>
+                <div class="nav-menu">
+                    <div class="menu">
+                        <ul class="navbar-link">
+                            <li class="nav-item"><a class="nav-link" href="#home-page">HOME</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#education">EDUCATION</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">ABOUT ME</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#footer">FOOTER</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="icon-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main Webpage -->
+        <main class="main">
+            <section class="home" id="home-page">
+                <div class="home-text">
+                    <div class="home-img">
+                        <a href="index.html"><img src="project-image/om.jpg" alt="home-img"></a>
+                    </div>
+                    <div class="text">
+                        <h3>Hi There ;)</h3>
+                        <h2>My Name is <span class="color">Om Patel</span></h2>
+                        <p>I am a student , graduating in india at A D Patel Institute of Technology for Information Technology(IT)</p>
+                    </div>
+                    <div class="hbutton">
+                        <a href="#contact"><button class="btn">Reach Me</button></a>
+                        <button class="btn">My Resume <i class="uil uil-import"></i></button></a>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <!-- Education Background -->
+            <section class="education" id="education">
+                <h3 class="heading">Graduation Background</h3>
+                <div class="education-content">
+                    <div class="education-box">
+                        <h2>12th Science, RTP School</h2>
+                        <p>Completed - March 2020 </p>
+                        <br>
+                        <i class="uil uil-backpack"></i>
+                    </div>
+                    <div class="education-box">
+                        <h2>Information Technology,   A D Patel Institute of Technology</h2>
+                        <p>Enrolled - January 2022</p>
+                        <br>
+                        <i class="uil uil-university"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Myself -->
+            <section class="about" id="about">
+                <h4 class="heading">More Details</Details></h4>
+                <div class="about-content">
+                    <div class="about-details">
+                        <span class="abt-span">General Information</span>
+                        <pre>Full Name           : Om Anilkumar Patel</pre>
+                        <pre>Date Of Birth       : 14th May 2002</pre>
+                        <pre>Age                 : 21 Year</pre>
+                        <pre>College             : A D Patel Institute of Technology</pre>
+                        <pre>Course              : Information Technology</pre>
+                        <pre>Enrollment No.      : 12002080601071</pre>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Detail Form -->
+            <section class="contact" id="contact">
+                <h2 class="heading">Get In touch with me</h2>
+                <div class="contact-content">
+                    <form action="https://httpbin.org/post" class="contact-form" id="contact-form" method="POST">
+
+                        <!-- Name -->
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Full Name" class="name format">
+
+                        <!-- Email -->
+                        <label for="email"> Email:</label>
+                        <input type="text" name="email" id="email" placeholder="Enter Valid Email Id" class="email format">
+
+                        <!-- Address -->
+                        <label for="address">Current Location:</label>
+                        <textarea name="address" id="address" cols="42" rows="6" placeholder="Type Your Current Address without Postal Code" class="address"></textarea>
+
+                        <!-- Cities List of Ontario -->
+                        <label for="name">City:</label>
+                        <input class="format" type="text" id="city" name="city"  placeholder="Enter City Name"/>
+
+                        <label for="pCode">Postal Code:</label>
+                        <input name="Postal_Code" type="text" id="pCode" class="format" placeholder="Enter Postal Code">
+
+                        <!-- Field of work selection -->
+                        <label for="field">Your Working Field?</label>
+                        <select name="field" id="field" size=3>
+                            <option >Finance , Banking & Service Industry</option>
+                            <option>Defense & Aerospace</option>
+                            <option >Information Technology</option>
+                            <option>Healthcare</option>
+                            <option>Supply Chain</option>
+                            <option>Education & Research</option>
+                            <option>Management</option>
+                            <option>Technical Sales & Marketing</option>
+                            <option>Military & Homeland Security</option>
+                            <option>Energy</option>
+                            <option>Public Service</option>
+                            <option>Manufacturing</option>
+                        </select>
+
+                        <!-- Response Buttons -->
+                        <div class="form-btns">
+                            <input type="reset" value="CLEAR" class="btn">
+                            <input type="submit" value="SUBMIT" class="btn">
+                        </div>
+                        <div id="error"></div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- Webpage Footer -->
+        <footer class="footer" id="footer">
+            <h4>OM PATEL</h4>
+            
+            <div class="icons">
+                <a href="https://www.instagram.com/om._.bhagat/" target="_blank"><i class="uil uil-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100010694748594&sk=friends" target="_blank"><i class="uil uil-facebook"></i></a>
+                </div>
+            <br>
+            <span  class="copyright">Copyright ©copy 2022</span></p>
+        </footer>
+
+    </div>
+</body>
+</html>
