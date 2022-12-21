@@ -49,7 +49,7 @@ button, input {
     background: transparent;
     position: relative;
     cursor: pointer;
-    margin: 10px 10px 180px 10px;
+    margin: 10px 10px 20px 10px;
 }
 
 .btn:hover {
@@ -71,7 +71,7 @@ button, input {
 
 .heading {
     padding-top: 40px;
-    font-size: 5rem;
+    font-size: 50px;
     text-transform: uppercase;
     color: #ffffffd7;
     text-align: center;
@@ -154,7 +154,7 @@ button, input {
 /* Home Page */
 
 .home {
-    min-height: 600px;
+    min-height: 750px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,7 +240,7 @@ button, input {
 
 .education-box {
     width: 400px;
-    height: 175px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -354,10 +354,11 @@ label {
     color: #000;
     background: #FFF;
     border-radius: 0.4rem;
+    width:400px;
 }
 
 .contact-form {
-    max-width: 450px;
+    max-width: 400px;
     margin: auto;
     width: 100%;
     display: grid;
@@ -463,11 +464,11 @@ form .btn {
     
 
     .about-details pre {
-        font-size: 0.9rem;
+        font-size: 10px;
     }
 
     .heading {
-        font-size: 3.2rem;
+        font-size: 45px;
     }
     
     .abt-span {
